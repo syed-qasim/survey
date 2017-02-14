@@ -1,0 +1,71 @@
+<!DOCTYPE html>
+<html>
+  <header>
+    <script src="js/jquery-3.1.1.js"></script>
+    <script src="js/scripts.js"></script>
+    <link href="css/bootstrap.css" rel="Stylesheet" type="text/CSS">
+    <link href="css/styles.css" rel="Stylesheet" type="text/CSS">
+    <title>Survey</title>
+  </header>
+  <body>
+    <div class="container">
+      <div class="jumbotron">
+        <h2>Student Survey</h2>
+        <p>This is a survey of all students!</p>
+      </div>
+      <div class="row">
+        <div class="col-md-6">
+          <form>
+            <div class="form-group">
+              <label for="student1">What is your name?</label>
+              <input id="student1" class="form-control" type="text">
+            </div>
+            <label for="food1">What is your favorite Music?</label>
+            <div class="radio">
+              <label>
+                <input type="radio" name="music" value="Rock" checked>
+                Rock
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="music" value="Classic">
+                Classic
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="music" value="Metal">
+                Metal
+              </label>
+            </div>
+            <div class="radio">
+              <label>
+                <input type="radio" name="music" value="Country">
+                Country
+              </label>
+            </div>
+            <button type="submit" class="btn">Submit the Survey</button>
+        </div>
+        <div class="col-md-6">
+            <div class="form-group">
+              <label for="food1">What is your favorite food?</label>
+              <select class="form-control" id="beverage">
+                <option value="Indian">Indian</option>
+                <option value="Mexican">Mexican</option>
+                <option value="American">American</option>
+                <option value="Chinese">Chinese</option>
+                <option value="Japanese">Japanese</option>
+                <option value="French">French</option>
+            </select>
+            </div>
+            <div class="form-group">
+              <label for="born">What is your date of birth?</label>
+              <input id="born" class="form-control" type="date">
+            </div>
+          </form>
+        </div>
+      </div>
+    </div>
+  </body>
+</html>
