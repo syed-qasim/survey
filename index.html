@@ -15,31 +15,31 @@
       </div>
       <div class="row">
         <div class="col-md-6">
-          <form>
+          <form id="survey">
             <div class="form-group">
               <label for="student1">What is your name?</label>
               <input id="student1" class="form-control" type="text">
             </div>
-            <label for="food1">What is your favorite Music?</label>
-            <div class="radio">
+            <label for="Music1">What is your favorite Music?</label>
+            <div class="form-group radio">
               <label>
                 <input type="radio" name="music" value="Rock" checked>
                 Rock
               </label>
             </div>
-            <div class="radio">
+            <div class="form-group radio">
               <label>
                 <input type="radio" name="music" value="Classic">
                 Classic
               </label>
             </div>
-            <div class="radio">
+            <div class="form-group radio">
               <label>
                 <input type="radio" name="music" value="Metal">
                 Metal
               </label>
             </div>
-            <div class="radio">
+            <div class="form-group radio">
               <label>
                 <input type="radio" name="music" value="Country">
                 Country
@@ -48,6 +48,10 @@
             <br>
             <br>
             <button type="submit" class="btn">Submit the Survey</button>
+            <br>
+            <div id="thankyou">
+              <blockquote>Thank you, <span class="name1"></span> for completing the survey!</blockquote>
+            </div>
         </div>
         <div class="col-md-6">
             <div class="form-group">
